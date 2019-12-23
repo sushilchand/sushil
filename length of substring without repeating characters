@@ -8,7 +8,6 @@ public:
         int i = 0;
         int curr_len = 1;
         int max_len = 1;
-        int start = 0;
         m.insert({s[i], i+1});
         i++;
         while(i < size)
